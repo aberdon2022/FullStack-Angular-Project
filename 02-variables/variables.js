@@ -1,0 +1,13 @@
+var test = true;
+var num = 88;
+var str1 = 'Hello';
+var str2 = 'World';
+console.log(test);
+console.log(num);
+num = 'Hola';
+console.log(num);
+console.log(str1 + ' ' + str2);
+console.log('---------------------------------');
+console.log("bool: ".concat(test));
+console.log("num: ".concat(num));
+console.log("".concat(str1, " ").concat(str2));
